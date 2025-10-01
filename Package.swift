@@ -29,7 +29,7 @@ let package = Package(
     .package(
       name: "VungleAdsSDK",
       url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
-      from: "7.5.3"
+      .exact("7.5.3")
     )
   ],
   targets: [
